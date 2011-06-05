@@ -1,0 +1,80 @@
+#!/bin/sh
+default_bundles=(
+  ack.vim
+  actionscript.vim
+  applescript.vim
+  cocoa.vim
+  coffeescript.vim
+  cucumber.vim
+  delimitMate.vim
+  fugitive.vim
+  gist.vim
+  haml.vim
+  indexed-search.vim
+  jade.vim
+  javascript.vim
+  json.vim
+  markdown-preview.vim
+  markdown.vim
+  nerdcommenter.vim
+  nerdtree.vim
+  processing.vim
+  rails.vim
+  repeat.vim
+  ruby.vim
+  rvm.vim
+  snipmate.vim
+  statusline.vim
+  stylus.vim
+  supertab.vim
+  surround.vim
+  syntastic.vim
+  tabular.vim
+  taglist.vim
+  unimpaired.vim
+  yankring.vim
+)
+
+CWD=`pwd`
+
+echo "Creating directories..."
+mkdir -p $CWD/home/.vim/bundle
+mkdir -p $CWD/home/.vim/snippets
+mkdir -p $CWD/home/.vim/spell
+mkdir -p $CWD/home/.vim/tmp/swap
+mkdir -p $CWD/home/.vim/tmp/yankring
+
+# Only create the .vimrc.local file if it doesn't exist
+if [ -e "${HOME}/.vimrc.local" ]
+then
+  echo "${HOME}/.vimrc.local already exists, not overwriting"
+else
+  echo "Setting up default vimrc.local..."
+  cp $CWD/templates/.vimrc.local.example $CWD/home/.vimrc.local
+fi
+
+echo "Initializing submodules..."
+git submodule init
+git submodule update
+git submodule foreach git checkout master
+git submodule foreach git clean -f
+
+echo "Symlinking default bundles..."
+for i in "${default_bundles[@]}"; do
+  ln -sv $CWD/home/.vim/bundle_storage/$i $CWD/home/.vim/bundle/$i
+done
+
+echo "Symlinking default snippets..."
+for f in `ls $CWD/home/.vim/snippets_storage/`; do
+  ln -sv $CWD/home/.vim/snippets_storage/$f $CWD/home/.vim/snippets/$f
+done
+# Make an additional symlink of css for scss
+ln -sv $CWD/home/.vim/snippets_storage/css.snippets $CWD/home/.vim/snippets/scss.snippets
+
+echo "--------------------------------------------------"
+echo "*** Install Complete ***"
+echo "--------------------------------------------------"
+echo "Run the following command to symlink your castle:"
+echo "homesick symlink ${PWD##*/}"
+echo "--------------------------------------------------"
+

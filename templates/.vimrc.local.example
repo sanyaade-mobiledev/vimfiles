@@ -1,0 +1,71 @@
+
+" Loaded after .vimrc, so anything in here will override the .vimrc settings
+
+" User preferences
+" -----------------------------------------------------------------------------
+" set clipboard=unnamed
+" set noshowcmd
+" set nostartofline
+
+
+" User plugin configurations
+" -----------------------------------------------------------------------------
+" let g:yankring_history_dir=$HOME.'/.vim/tmp/yankring/'
+" let g:MarkdownPreviewUserStyles=$HOME.'/path/to/user/styles/'
+" let g:RefreshRunningBrowserDefault = 'chrome'
+" let g:snips_author = 'Your Name'
+
+" Commands and helper functions
+" -----------------------------------------------------------------------------
+" function! FixHTML()
+  " setlocal autoread
+  " execute('silent !tidy -m %')
+" endfunction
+" :command! FHTML :call FixHTML()
+
+
+
+" User key mapping
+" -----------------------------------------------------------------------------
+" <F1>-<F8> are reserved for .vimrc
+
+" Bubble single lines in Terminal (requires unimpaired.vim)
+" nmap <F11> ]e
+" nmap <F12> [e
+
+" Bubble multiple lines in Terminal (requires unimpaired.vim)
+" vmap <F11> ]egv
+" vmap <F12> [egv
+
+" User leader mapping
+" -----------------------------------------------------------------------------
+
+
+" User file type utility settings
+" -----------------------------------------------------------------------------
+
+
+" User file handling and settings
+" -----------------------------------------------------------------------------
+
+
+" User themes and GUI settings
+" -----------------------------------------------------------------------------
+
+" colorscheme colorblind
+" colorscheme solarizeddk
+" colorscheme solarizedlt
+" colorscheme bloodshot
+" colorscheme cataracts
+" colorscheme snowblind
+
+
+" User GUI specific settings (could be in .gvimrc.local)
+" -----------------------------------------------------------------------------
+" if has('gui_running')
+  " set guifont=MesloLGM:h12
+  " if has('gui_macvim')
+    " set transparency=5
+  " end
+" endif
+
