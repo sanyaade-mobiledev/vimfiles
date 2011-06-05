@@ -139,3 +139,6 @@
 [submodule "home/.vim/bundle_storage/yankring.vim"]
 	path = home/.vim/bundle_storage/yankring.vim
 	url = https://github.com/chrismetcalf/vim-yankring.git
+[submodule "home/.vim/bundle_storage/css-color.vim"]
+	path = home/.vim/bundle_storage/css-color.vim
+	url = https://github.com/skammer/vim-css-color.git
