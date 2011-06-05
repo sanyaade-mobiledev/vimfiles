@@ -187,6 +187,7 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 " Closes the window showing the location list from sytastic errors
 map <silent><leader>lc :lcl<cr>
 
+map <leader>nt :NERDTreeToggle<cr>
 
 " File type utility settings
 " -----------------------------------------------------------------------------
