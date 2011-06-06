@@ -129,7 +129,7 @@ nmap ;; a_<esc>r
 map <silent> \ :silent nohlsearch<cr>
 
 " <F1> toggles fullscreen in gui
-map <F2> :NERDTreeToggle<cr>
+map! <F2> :NERDTreeToggle<cr>
 nnoremap <silent> <F3> :TlistToggle<cr>
 nnoremap <silent> <F4> :YRShow<cr>
 ino <silent> <F5> <c-r>=ShowAvailableSnips()<cr>
