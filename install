@@ -3,6 +3,7 @@ default_bundles=(
   ack.vim
   actionscript.vim
   applescript.vim
+  browser-refresh.vim
   cocoa.vim
   coffeescript.vim
   cucumber.vim
