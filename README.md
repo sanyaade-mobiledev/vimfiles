@@ -129,6 +129,7 @@ The [install script][install] created initial symbolic links for the plug-ins li
 - [fugitive.vim](https://github.com/tpope/vim-fugitive/blob/master/doc/fugitive.txt)
 - [gist.vim](https://github.com/mattn/gist-vim)
 - [haml.vim](https://github.com/tpope/vim-haml)
+- [html5.vim](https://github.com/othree/html5.vim)
 - [indexed-search.vim](https://github.com/vim-scripts/IndexedSearch)
 - [jade.vim](https://github.com/vim-scripts/jade.vim)
 - [javascript.vim](https://github.com/pangloss/vim-javascript)

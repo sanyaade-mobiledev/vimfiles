@@ -35,7 +35,7 @@ hi ModeMsg                          guifg=#268BD2   guibg=NONE    gui=NONE      
 hi VertSplit                        guifg=#073642   guibg=#586E75 gui=NONE      ctermfg=Black       ctermbg=Green     cterm=NONE
 hi MatchParen                       guifg=#D30102   guibg=NONE    gui=NONE      ctermfg=DarkRed     ctermbg=NONE      cterm=NONE
 hi StatusLine                       guifg=#EEE8D5   guibg=#586E75 gui=bold      ctermfg=White       ctermbg=Green     cterm=NONE
-hi StatusLineNC                     guifg=#002B36   guibg=#586E75 gui=NONE      ctermfg=DarkGrey    ctermbg=Green     cterm=NONE
+hi StatusLineNC                     guifg=#073642   guibg=#586E75 gui=NONE      ctermfg=Black       ctermbg=Green     cterm=NONE
 hi Pmenu                            guifg=#EEE8D5   guibg=#073642 gui=NONE      ctermfg=Grey        ctermbg=Black      cterm=NONE
 hi PmenuSel                         guifg=#EEE8D5   guibg=#CB4B16 gui=NONE      ctermfg=Grey        ctermbg=Red      cterm=NONE
 hi IncSearch                        guifg=#FDF6E3   guibg=#2AA198 gui=NONE      ctermfg=White       ctermbg=DarkCyan  cterm=NONE
