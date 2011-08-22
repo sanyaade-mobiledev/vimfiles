@@ -145,3 +145,6 @@
 [submodule "home/.vim/bundle_storage/html5.vim"]
 	path = home/.vim/bundle_storage/html5.vim
 	url = https://github.com/othree/html5.vim.git
+[submodule "home/.vim/bundle_storage/bundler.vim"]
+	path = home/.vim/bundle_storage/bundler.vim
+	url = https://github.com/tpope/vim-bundler.git
