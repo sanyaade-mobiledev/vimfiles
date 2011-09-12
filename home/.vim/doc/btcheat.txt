@@ -94,6 +94,10 @@ Rails:
   <leader>av    => Edit alternate file in new vertical split
   <leader>as    => Edit alternate file in new split
   <leader>aa    => Edit related file
+
+CoffeeScript:
+  <leader>b     => Print selected to JavaScript in scratch buffer
+  <leader>d     => Run selected text in scratch buffer (uses node)
 ====================================================================
 vim:tw=78:ts=8:ft=help:norl:
 
