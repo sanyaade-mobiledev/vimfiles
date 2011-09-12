@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 default_bundles=(
   ack.vim
   actionscript.vim
