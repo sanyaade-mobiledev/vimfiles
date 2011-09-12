@@ -25,6 +25,8 @@ snippet ex
 	expect(${1:target})${2}
 snippet ee
 	expect(${1:target}).toEqual(${2:value})${3}
+snippet eb
+	expect(${1:target}).toBe(${2:value})${3}
 snippet em
 	expect(${1:target}).toMatch(${2:pattern})${3}
 snippet et
@@ -33,41 +35,37 @@ snippet ef
 	expect(${1:target}).toBeFalsy()${2}
 snippet ed
 	expect(${1:target}).toBeDefined()${2}
+snippet eu
+	expect(${1:target}).toBeUndefined()${2}
 snippet en
 	expect(${1:target}).toBeNull()${2}
 snippet ec
 	expect(${1:target}).toContain(${2:value})${3}
-snippet notx
-	expect(${1:target}).not${2}
-snippet note
-	expect(${1:target}).not.toEqual(${2:value})${3}
-snippet notm
-	expect(${1:target}).not.toMatch(${2:pattern})${3}
-snippet nott
-	expect(${1:target}).not.toBeTruthy()${2}
-snippet notf
-	expect(${1:target}).not.toBeFalsy()${2}
-snippet notd
-	expect(${1:target}).not.toBeDefined()${2}
-snippet notn
-	expect(${1:target}).not.toBeNull()${2}
-snippet notc
-	expect(${1:target}).not.toContain(${2:value})${3}
-snippet esc
-	expect(${1:target}).wasCalled()${2}
-snippet escw
-	expect(${1:target}).wasCalledWith(${2:arguments})${3}
-snippet notsc
-	expect(${1:target}).wasNotCalled()${2}
-snippet notscw
-	expect(${1:target}).wasNotCalledWith(${2:arguments})${3}
-snippet sp
-	spyOn(${1:object}, '${2:method}')${3}
-snippet sr
-	spyOn(${1:object}, '${2:method}').andReturn(${3:arguments})${4}
-snippet st
-	spyOn(${1:object}, '${2:method}').andThrow(${3:exception})${4}
-snippet sct
+snippet el
+	expect(${1:target}).toBeLessThan(${2:value})${3}
+snippet eg
+	expect(${1:target}).toBeGreaterThan(${2:value})${3}
+snippet eth
+	expect(${1:fn}).toThrow()
+snippet wf
+	waitsFor(function() {
+		${1:fn}
+	}, "${2:message}", ${3:duration})
+snippet ecall
+	expect(${1:target}).toHaveBeenCalled()
+snippet ecallw
+	expect(${1:target}).toHaveBeenCalledWith(${2:arguments})
+snippet soct
 	spyOn(${1:object}, '${2:method}').andCallThrough()${3}
-snippet scf
+snippet sor
+	spyOn(${1:object}, '${2:method}').andReturn(${3:arguments})${4}
+snippet sot
+	spyOn(${1:object}, '${2:method}').andThrow(${3:exception})${4}
+snippet socf
 	spyOn(${1:object}, '${2:method}').andCallFake(${3:function})${4}
+snippet scc
+	${1:spy}.callCount
+snippet sra
+	${1:spy}.mostRecentCall.args
+snippet safc
+	${1:spy}.argsForCall[${2:index}]
