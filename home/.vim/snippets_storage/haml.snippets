@@ -48,12 +48,12 @@ snippet :
 snippet t
 	%${1:p}
 snippet meta
-	%meta{ :name => '${1:name}', :content => '${2:content}'${3:, } }${4}
+	%meta(name="${1:name}" content="${2:content}")${3}
 snippet partial
 	= render :partial => '${1:path}'${2}
 snippet link
-	%a{:href => '${1:#}'} ${2:Link}
+	%a(href="${1:#}") ${2:Link}
 snippet img
-	%img{:src => '${1:path}', :alt => '${2:alt}'}/${3}
+	%img(src="${1:path}" alt="${2:alt}")${3}
 snippet imgd
-	%img{:src => '${1:path}', :alt => '${2:alt}', :width => '${3}', :height => '${4}'}/${5}
+	%img(src="${1:path}" alt="${2:alt}" width="${3}" height="${4}")${5}
