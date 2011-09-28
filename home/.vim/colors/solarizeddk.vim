@@ -74,6 +74,7 @@ hi PreCondit                        guifg=#859900   guibg=NONE  gui=italic      
 hi PreProc                          guifg=#B58900   guibg=NONE  gui=NONE        ctermfg=Brown       ctermbg=NONE      cterm=NONE
 hi Repeat                           guifg=#268BD2   guibg=NONE  gui=NONE        ctermfg=DarkBlue    ctermbg=NONE      cterm=NONE
 hi Special                          guifg=#EEE8D5   guibg=NONE  gui=italic      ctermfg=White       ctermbg=NONE      cterm=NONE
+hi SpecialChar                      guifg=#839496   guibg=NONE  gui=NONE        ctermfg=Blue        ctermbg=NONE      cterm=NONE
 hi SpecialComment                   guifg=#D33682   guibg=NONE  gui=NONE        ctermfg=DarkMagenta ctermbg=NONE      cterm=NONE
 hi Statement                        guifg=#268BD2   guibg=NONE  gui=NONE        ctermfg=DarkBlue    ctermbg=NONE      cterm=NONE
 hi StorageClass                     guifg=#268BD2   guibg=NONE  gui=NONE        ctermfg=DarkBlue    ctermbg=NONE      cterm=NONE
@@ -83,6 +84,7 @@ hi Tag                              guifg=#268BD2   guibg=NONE  gui=NONE        
 hi Todo                             guifg=#EEE8D5   guibg=NONE  gui=inverse     ctermfg=White       ctermbg=DarkRed   cterm=NONE
 hi Type                             guifg=#D33682   guibg=NONE  gui=NONE        ctermfg=DarkMagenta ctermbg=NONE      cterm=NONE
 hi Underlined                       guifg=NONE      guibg=NONE  gui=underline   ctermfg=NONE        ctermbg=NONE      cterm=underline
+
 
 " Language Specific Overrides
 " -----------------------------------------------------------------------------
@@ -164,6 +166,10 @@ hi def link javaScriptGlobalObjects Include
 hi def link javaScriptHtmlEvents    Structure
 hi def link javaScriptStringD       PreCondit
 hi javaScriptBraces                 guifg=NONE   guibg=NONE  gui=NONE        ctermfg=NONE    ctermbg=NONE   cterm=NONE
+
+hi def link coffeeObjAssign         Character
+hi def link coffeeSpecialVar        Identifier
+hi def link coffeeRegex             Boolean
 
 hi def link actionScriptStringD     PreCondit
 hi def link actionScriptNumber      Number

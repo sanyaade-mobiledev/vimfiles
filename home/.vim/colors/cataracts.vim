@@ -70,6 +70,7 @@ hi PreCondit                        guifg=#3D9C00   guibg=NONE  gui=italic      
 hi PreProc                          guifg=#7F003D   guibg=NONE  gui=NONE        ctermfg=Yellow       ctermbg=NONE       cterm=NONE
 hi Repeat                           guifg=#445588   guibg=NONE  gui=NONE        ctermfg=Blue         ctermbg=NONE       cterm=NONE
 hi Special                          guifg=#000000   guibg=NONE  gui=italic      ctermfg=Black        ctermbg=NONE       cterm=NONE
+hi SpecialChar                      guifg=#000000   guibg=NONE  gui=NONE        ctermfg=Black        ctermbg=NONE       cterm=NONE
 hi SpecialComment                   guifg=#AA2C8C   guibg=NONE  gui=NONE        ctermfg=DarkMagenta  ctermbg=NONE       cterm=NONE
 hi Statement                        guifg=#445588   guibg=NONE  gui=NONE        ctermfg=Blue         ctermbg=NONE       cterm=NONE
 hi StorageClass                     guifg=#445588   guibg=NONE  gui=NONE        ctermfg=Blue         ctermbg=NONE       cterm=NONE
@@ -160,6 +161,10 @@ hi def link javaScriptGlobalObjects Include
 hi def link javaScriptHtmlEvents    Structure
 hi def link javaScriptStringD       PreCondit
 hi javaScriptBraces                 guifg=NONE   guibg=NONE  gui=NONE        ctermfg=NONE    ctermbg=NONE   cterm=NONE
+
+hi def link coffeeObjAssign         Character
+hi def link coffeeSpecialVar        Identifier
+hi def link coffeeRegex             Boolean
 
 hi def link actionScriptStringD     PreCondit
 hi def link actionScriptNumber      Number
