@@ -169,6 +169,7 @@ hi javaScriptBraces                 guifg=NONE   guibg=NONE  gui=NONE        cte
 hi def link coffeeObjAssign         Character
 hi def link coffeeSpecialVar        Identifier
 hi def link coffeeRegex             Boolean
+hi def link coffeeObject            Constant
 
 hi def link actionScriptStringD     PreCondit
 hi def link actionScriptNumber      Number
