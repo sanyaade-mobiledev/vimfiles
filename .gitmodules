@@ -148,3 +148,6 @@
 [submodule "home/.vim/bundle_storage/bundler.vim"]
 	path = home/.vim/bundle_storage/bundler.vim
 	url = https://github.com/tpope/vim-bundler.git
+[submodule "home/.vim/bundle_storage/statline.vim"]
+	path = home/.vim/bundle_storage/statline.vim
+	url = https://github.com/millermedeiros/vim-statline.git

@@ -211,3 +211,6 @@ hi def link xmlCdataStart           Character
 hi def link xmlCdataEnd             Character
 hi def link xmlCdataCdata           Structure
 
+" Statline
+hi User1                       guifg=#EEE8D5   guibg=#586E75 gui=bold      ctermfg=White       ctermbg=Green     cterm=NONE
+hi User4                       guifg=#EEE8D5   guibg=#586E75 gui=bold      ctermfg=White       ctermbg=Green     cterm=NONE
