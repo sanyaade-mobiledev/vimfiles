@@ -144,7 +144,7 @@ The [install script][install] created initial symbolic links for the plug-ins li
 - [ruby.vim](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
 - [rvm.vim](https://github.com/csexton/rvm.vim)
 - [snipmate.vim](https://github.com/msanders/snipmate.vim/blob/master/doc/snipMate.txt)
-- [statusline.vim](https://github.com/factorylabs/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
+- [statusline.vim](https://github.com/bit-theory/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
 - [stylus.vim](https://github.com/wavded/vim-stylus)
 - [supertab.vim](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
 - [surround.vim](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
