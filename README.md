@@ -142,9 +142,9 @@ The [install script][install] created initial symbolic links for the plug-ins li
 - [rails.vim](https://github.com/tpope/vim-rails/blob/master/doc/rails.txt)
 - [repeat.vim](https://github.com/tpope/vim-repeat)
 - [ruby.vim](https://github.com/vim-ruby/vim-ruby/tree/master/doc)
-- [rvm.vim](https://github.com/csexton/rvm.vim)
+- [rvm.vim](https://github.com/tpope/vim-rvm)
 - [snipmate.vim](https://github.com/msanders/snipmate.vim/blob/master/doc/snipMate.txt)
-- [statusline.vim](https://github.com/bit-theory/vimfiles/blob/master/home/.vim/bundle_storage/statusline/doc/statusline.txt)
+- [statline.vim](https://github.com/millermedeiros/vim-statline/blob/master/doc/statline.txt)
 - [stylus.vim](https://github.com/wavded/vim-stylus)
 - [supertab.vim](https://github.com/ervandew/supertab/blob/master/doc/supertab.txt)
 - [surround.vim](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
@@ -164,6 +164,7 @@ These are the additional plug-ins included, but are not required. They are not l
 - [autocorrect.vim](https://github.com/vim-scripts/autocorrect.vim) - Corrects misspellings as you type i.e. teh -> the \*\*
 - [browser-refresh.vim](https://github.com/mkitt/browser-refresh.vim/blob/master/doc/browser-refresh.txt) - refresh the running browser with a key command
 - [bufkill.vim](https://github.com/vim-scripts/bufkill.vim) - Unload, delete or wipe a buffer
+- [bundler.vim](https://github.com/tpope/vim-bundler) - Lightweight wrapper around bundler
 - [camelcasemotion.vim](https://github.com/vim-scripts/camelcasemotion/blob/master/doc/camelcasemotion.txt) - Motion commands for moving between camelCase or words\_with\_underscores \*\*
 - [clang-complete.vim](https://github.com/Rip-Rip/clang_complet://github.com/Rip-Rip/clang_complete) - Use clang for completing C/C++ code.
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector

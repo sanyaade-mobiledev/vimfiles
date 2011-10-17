@@ -92,16 +92,6 @@ let g:snippets_dir = $HOME.'/.vim/snippets/'
 " Commands and helper functions
 " -----------------------------------------------------------------------------
 
-" Sort CSS properties between the braces alphabetically
-:command! SortCSS :g#\({\n\)\@<=#.,/}/sort | :noh
-
-" Let Google Linter autofix the js errors in the current buffer
-function! FixJS()
-  setlocal autoread
-  execute('silent !$HOME/.vim/syntax_checkers/compilers/fixjsstyle --strict --nojsdoc %')
-endfunction
-:command! FJS :call FixJS()
-
 " Key mapping
 " -----------------------------------------------------------------------------
 nnoremap j gj
