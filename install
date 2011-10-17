@@ -26,7 +26,7 @@ default_bundles=(
   ruby.vim
   rvm.vim
   snipmate.vim
-  statusline.vim
+  statusline
   stylus.vim
   supertab.vim
   surround.vim
