@@ -57,3 +57,8 @@ snippet img
 	%img(src="${1:path}" alt="${2:alt}")${3}
 snippet imgd
 	%img(src="${1:path}" alt="${2:alt}" width="${3}" height="${4}")${5}
+snippet nav
+	%nav
+		%ul
+			%li
+				%a(href="${1:#}") ${2:Link}
