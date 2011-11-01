@@ -37,8 +37,8 @@ hi MatchParen                       guifg=#D30102   guibg=NONE    gui=NONE      
 hi StatusLine                       guifg=#EEE8D5   guibg=#586E75 gui=bold      ctermfg=White       ctermbg=Green     cterm=NONE
 hi StatusLineNC                     guifg=#073642   guibg=#586E75 gui=NONE      ctermfg=Black       ctermbg=Green     cterm=NONE
 hi Pmenu                            guifg=#EEE8D5   guibg=#073642 gui=NONE      ctermfg=Grey        ctermbg=Black      cterm=NONE
-hi PmenuSel                         guifg=#EEE8D5   guibg=#CB4B16 gui=NONE      ctermfg=Grey        ctermbg=Red      cterm=NONE
-hi IncSearch                        guifg=#FDF6E3   guibg=#2AA198 gui=NONE      ctermfg=White       ctermbg=DarkCyan  cterm=NONE
+hi PmenuSel                         guifg=#EEE8D5   guibg=#CB4B16 gui=NONE      ctermfg=Grey        ctermbg=Red       cterm=NONE
+hi IncSearch                        guifg=#FDF6E3   guibg=#859900 gui=NONE      ctermfg=White       ctermbg=DarkGreen cterm=NONE
 hi Search                           guifg=#FDF6E3   guibg=#2AA198 gui=NONE      ctermfg=White       ctermbg=DarkCyan  cterm=NONE
 hi Directory                        guifg=#268BD2   guibg=NONE    gui=NONE      ctermfg=DarkBlue    ctermbg=NONE      cterm=NONE
 hi Folded                           guifg=#6C71C4   guibg=NONE    gui=NONE      ctermfg=Magenta     ctermbg=NONE      cterm=NONE

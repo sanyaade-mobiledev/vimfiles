@@ -36,7 +36,7 @@ hi StatusLine                       guifg=#FFFFFF   guibg=#445588 gui=bold      
 hi StatusLineNC                     guifg=#999999   guibg=#445588 gui=NONE      ctermfg=Grey         ctermbg=Blue     cterm=NONE
 hi Pmenu                            guifg=#000000   guibg=#999999 gui=NONE      ctermfg=Black        ctermbg=Grey     cterm=NONE
 hi PmenuSel                         guifg=#FFFFFF   guibg=#0000FF gui=NONE      ctermfg=White        ctermbg=Blue     cterm=NONE
-hi IncSearch                        guifg=NONE      guibg=#333333 gui=NONE      ctermfg=NONE         ctermbg=Cyan     cterm=NONE
+hi IncSearch                        guifg=NONE      guibg=#3D9C00 gui=NONE      ctermfg=NONE         ctermbg=DarkGreen cterm=NONE
 hi Search                           guifg=NONE      guibg=#333333 gui=NONE      ctermfg=NONE         ctermbg=Cyan     cterm=NONE
 hi Directory                        guifg=#4F92D1   guibg=NONE    gui=NONE      ctermfg=DarkBlue     ctermbg=NONE     cterm=bold
 hi Folded                           guifg=#782DBD   guibg=NONE    gui=NONE      ctermfg=Magenta      ctermbg=NONE     cterm=NONE
