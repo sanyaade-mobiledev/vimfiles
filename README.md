@@ -136,6 +136,7 @@ The [install script][install] created initial symbolic links for the plug-ins li
 - [json.vim](https://github.com/vim-scripts/JSON.vim)
 - [markdown-preview.vim](https://github.com/mkitt/markdown-preview.vim/blob/master/doc/markdown-preview.txt)
 - [markdown.vim](https://github.com/tpope/vim-markdown)
+- [mustache.vim](https://github.com/juvenn/mustache.vim)
 - [nerdcommenter.vim](https://github.com/scrooloose/nerdcommenter/blob/master/doc/NERD_commenter.txt)
 - [nerdtree.vim](https://github.com/scrooloose/nerdtree/blob/master/doc/NERD_tree.txt)
 - [processing.vim](https://github.com/vim-scripts/Processing)

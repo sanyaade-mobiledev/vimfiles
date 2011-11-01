@@ -18,6 +18,7 @@ default_bundles=(
   json.vim
   markdown-preview.vim
   markdown.vim
+  mustache.vim
   nerdcommenter.vim
   nerdtree.vim
   processing.vim

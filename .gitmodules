@@ -151,3 +151,6 @@
 [submodule "home/.vim/bundle_storage/rvm.vim"]
 	path = home/.vim/bundle_storage/rvm.vim
 	url = https://github.com/tpope/vim-rvm.git
+[submodule "home/.vim/bundle_storage/mustache.vim"]
+	path = home/.vim/bundle_storage/mustache.vim
+	url = https://github.com/juvenn/mustache.vim.git
