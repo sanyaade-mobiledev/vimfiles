@@ -181,6 +181,9 @@ map <silent><leader>lc :lcl<cr>
 map <silent><leader>T :CommandTBuffer<cr>
 let g:CommandTAcceptSelectionSplitMap='<C-x>'
 
+vmap <silent><leader>y "xy
+vmap <silent><leader>p "xp
+
 
 " File type utility settings
 " -----------------------------------------------------------------------------

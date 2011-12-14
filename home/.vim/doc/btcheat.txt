@@ -74,6 +74,8 @@ Global:
   <leader>gs    => git status
   <leader>e     => start an edit command with the path of the current file
   <leader>lc    => close syntastic's location list
+  <leader>y     => in visual mode yank the contents to register "x"
+  <leader>p     => paste the contents of named register "x"
 
 Rails:
   <leader>c     => Edit the specified or current controller
