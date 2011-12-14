@@ -23,6 +23,9 @@ clean:
 	@git submodule foreach git clean -f
 	@git status
 
+pathogen:
+	curl -so $(CWD)/home/.vim/autoload/pathogen.vim https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
+
 add_bundle:
 	@ln -sv $(CWD)/home/.vim/bundle_storage/$(name) $(CWD)/home/.vim/bundle/$(name)
 
@@ -41,5 +44,5 @@ install: themes
 themes:
 	@cp -rv themes $(HOME)/Desktop/
 
-.PHONY: help update clean add_bundle add_snippet remove_bundle remove_snippet install themes
+.PHONY: help update clean pathogen add_bundle add_snippet remove_bundle remove_snippet install themes
 
