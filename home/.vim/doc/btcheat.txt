@@ -68,7 +68,6 @@ Global:
   <leader>CW    => clean empty whitespace (when [\s] is in status line)
   <leader>CT    => change from tabs to soft spaces
   <leader>s     => open current buffer in a new split
-  <leader>ts    => toggle spell check
   <leader>rt    => reload ctags
   <leader>t     => Command-T trigger
   <leader>ft    => flush Command-T
