@@ -3,8 +3,7 @@
 set nocompatible
 
 " Use Pathogen to load bundles
-call pathogen#runtime_append_all_bundles()
-call pathogen#helptags()
+call pathogen#infect()
 
 filetype on
 filetype plugin indent on
@@ -158,9 +157,6 @@ map <silent><leader>CT :retab<cr>
 " Open current buffer in a new split
 map <leader>s <C-w>v<C-w>l
 
-" Toggle spelling hints
-nmap <silent> <leader>ts :set spell!<cr>
-
 " Reload ctags
 map <leader>rt :!ctags --extra=+f -R *<cr><cr>
 
@@ -185,22 +181,9 @@ function! s:setWrapping()
   setlocal wrap linebreak nolist spell
 endfunction
 
-" Enable browser refreshing on web languages
-function! s:setBrowserEnv()
-  if has('mac')
-    map <buffer> <silent><leader>r :RRB<cr>
-  endif
-endfunction
-
-" Sort CSS selectors and allow for browser refresh
-function! s:setCSS()
-  call s:setBrowserEnv()
-endfunction
-
 " Setup specific options for markdown
 function! s:setMarkdown()
   call s:setWrapping()
-  call s:setBrowserEnv()
   au! BufWritePost *.md,*.markdown,*.mkd :MDP
 endfunction
 
@@ -251,8 +234,6 @@ if !exists("autocommands_loaded")
   " Call the file type utility methods
   au BufRead,BufNewFile *.txt call s:setWrapping()
   au BufRead,BufNewFile *.md,*.markdown,*.mkd call s:setMarkdown()
-  au BufRead,BufNewFile *.css,*.scss call s:setCSS()
-  au BufRead,BufNewFile *.html,*.js,*.haml,*.erb call s:setBrowserEnv()
   au BufRead,BufNewFile *.coffee call s:setCoffee()
   au User Rails call s:setRails()
 
