@@ -98,7 +98,7 @@ nnoremap j gj
 nnoremap k gk
 nnoremap ; :
 inoremap jj <ESC>
-inoremap jk <Esc>
+inoremap jk <ESC>
 
 " Move between splits
 map <C-h> <C-w>h
