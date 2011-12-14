@@ -5,6 +5,7 @@ help:
 	@echo "USAGE:"
 	@echo "make update                               Updates all of the submodules within the project"
 	@echo "make clean                                Cleans out all of the generated code within a submodule (mainly docs/tags)"
+	@echo "make pathogen                             Updates the pathogen bundle"
 	@echo "make add_bundle name=<bundle-name>        Symlinks a bundle from bundle_storage to the bundle directory"
 	@echo "make add_snippet name=<snippet-name>      Symlinks a snippet from snippet_storage to the snippet directory"
 	@echo "make remove_bundle name=<bundle-name>     Removes a bundle symlink from the bundle directory"
