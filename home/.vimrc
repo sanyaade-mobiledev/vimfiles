@@ -4,6 +4,7 @@ set nocompatible
 
 " Use Pathogen to load bundles
 call pathogen#infect()
+call pathogen#helptags()
 
 filetype on
 filetype plugin indent on
@@ -87,6 +88,9 @@ let g:SuperTabLongestEnhanced = 1
 " Tell snipmate to pull it's snippets from a custom directory
 let g:snippets_dir = $HOME.'/.vim/snippets/'
 
+" Keep Command-T window manageable
+let g:CommandTMaxHeight=10
+
 
 " Commands and helper functions
 " -----------------------------------------------------------------------------
@@ -134,6 +138,7 @@ nmap <C-Down> ]e
 vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
+
 " Leader mapping
 " -----------------------------------------------------------------------------
 map <leader>a :Ack
@@ -171,6 +176,10 @@ cmap <C-P> <C-R>=expand("%:p:h") . "/" <CR>
 
 " Closes the window showing the location list from sytastic errors
 map <silent><leader>lc :lcl<cr>
+
+" Command-T Overrides
+map <silent><leader>T :CommandTBuffer<cr>
+let g:CommandTAcceptSelectionSplitMap='<C-x>'
 
 
 " File type utility settings

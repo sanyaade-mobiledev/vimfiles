@@ -154,3 +154,6 @@
 [submodule "home/.vim/bundle_storage/mustache.vim"]
 	path = home/.vim/bundle_storage/mustache.vim
 	url = https://github.com/juvenn/mustache.vim.git
+[submodule "home/.vim/bundle_storage/command-t"]
+	path = home/.vim/bundle_storage/command-t
+	url = https://github.com/wincent/Command-T.git

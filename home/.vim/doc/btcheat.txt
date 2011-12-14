@@ -70,7 +70,7 @@ Global:
   <leader>s     => open current buffer in a new split
   <leader>rt    => reload ctags
   <leader>t     => Command-T trigger
-  <leader>ft    => flush Command-T
+  <leader>T     => Command-T Open Buffers
   <leader>gs    => git status
   <leader>e     => start an edit command with the path of the current file
   <leader>lc    => close syntastic's location list
