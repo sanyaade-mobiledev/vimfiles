@@ -2,7 +2,9 @@
 CWD=`pwd`
 
 help:
-	@echo "USAGE:"
+	@echo "USAGE:                                    make <task>"
+	@echo ""
+	@echo "make help                                 The default task, prints out this message"
 	@echo "make update                               Updates all of the submodules within the project"
 	@echo "make clean                                Cleans out all of the generated code within a submodule (mainly docs/tags)"
 	@echo "make pathogen                             Updates the pathogen bundle"
@@ -49,5 +51,5 @@ install: themes
 themes:
 	@cp -rv themes $(HOME)/Desktop/
 
-.PHONY: help update clean pathogen add_bundle add_snippet remove_bundle remove_snippet install themes
+.PHONY: help update clean pathogen commandt add_bundle add_snippet remove_bundle remove_snippet install themes
 
