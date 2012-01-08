@@ -32,7 +32,7 @@ default_bundles=(
   surround.vim
   syntastic.vim
   tabular.vim
-  taglist.vim
+  tagbar.vim
   unimpaired.vim
   yankring.vim
 )

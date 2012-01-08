@@ -13,7 +13,7 @@ Bit Theory peops, double check, but you most likely already have the basic requi
 - [discount][discount] - `brew install discount `
 - [ctags][ctags] - `brew install ctags `
 
-[MacVim][macvim] is not a requirement as the majority of the files work in most \*nix environments including Terminal. It's recommended to use [Homebrew's][homebrew] package of [MacVim][macvim], as it compiles MacVim and Vim at 64 bit with Ruby, Python, Perl, installs the command line link `mvim`, plus a bunch of other goodness. [Homesick][homesick] is required for easy management of dot files with the repository. The [discount][discount] executable is recommended for converting markdown files to html for previewing. The [ctags][ctags] executable is helpful for taglist (jumping between files) and omni completion.
+[MacVim][macvim] is not a requirement as the majority of the files work in most \*nix environments including Terminal. It's recommended to use [Homebrew's][homebrew] package of [MacVim][macvim], as it compiles MacVim and Vim at 64 bit with Ruby, Python, Perl, installs the command line link `mvim`, plus a bunch of other goodness. [Homesick][homesick] is required for easy management of dot files with the repository. The [discount][discount] executable is recommended for converting markdown files to html for previewing. The [ctags][ctags] executable is helpful for tagbar (jumping between files) and omni completion.
 
 
 ## Installation
@@ -151,7 +151,7 @@ The [install script][install] created initial symbolic links for the plug-ins li
 - [surround.vim](https://github.com/tpope/vim-surround/blob/master/doc/surround.txt)
 - [syntastic.vim](https://github.com/scrooloose/syntastic/blob/master/doc/syntastic.txt)
 - [tabular.vim](https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt)
-- [taglist.vim](https://github.com/vim-scripts/taglist.vim/blob/master/doc/taglist.txt)
+- [tagbar.vim](https://github.com/majutsushi/tagbar/blob/master/doc/tagbar.txt)
 - [unimpaired.vim](https://github.com/tpope/vim-unimpaired/blob/master/doc/unimpaired.txt)
 - [yankring.vim](https://github.com/chrismetcalf/vim-yankring/blob/master/doc/yankring.txt)
 
@@ -177,6 +177,7 @@ These are the additional plug-ins included, but are not required. They are not l
 - [ragtag.vim](https://github.com/tpope/vim-ragtag/blob/master/doc/ragtag.txt) - Ghetto XML/HTML mappings
 - [specky.vim](https://github.com/vim-scripts/Specky/blob/master/doc/specky.txt) - Plug-in for testing Ruby code with RSpec
 - [speeddating.vim](https://github.com/tpope/vim-speeddating/blob/master/doc/speeddating.txt) - Use CTRL-A/CTRL-X to increment dates, times, and more
+- [taglist.vim](https://github.com/vim-scripts/taglist.vim/blob/master/doc/taglist.txt) Deprecated in favor of the tagbar plugin
 - [tailminusf.vim](https://github.com/vim-scripts/TailMinusF/blob/master/doc/tailminusf.txt) - Watch the contents of a file in real time
 
 **\*\* - Recommended!**
