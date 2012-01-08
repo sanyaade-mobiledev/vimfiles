@@ -170,6 +170,7 @@ These are the additional plug-ins included, but are not required. They are not l
 - [clang-complete.vim](https://github.com/Rip-Rip/clang_complet://github.com/Rip-Rip/clang_complete) - Use clang for completing C/C++ code.
 - [colorsel.vim](https://github.com/vim-scripts/colorsel.vim/blob/master/doc/colorsel.txt) - Interactive RGB/HSV color selector
 - [css-color.vim](https://github.com/skammer/vim-css-color) - Highlights colors within css files
+- [eunuch.vim](https://github.com/tpope/vim-eunuch) - Vim sugar for the UNIX shell commands that need it the most
 - [gundo.vim](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
 - [lusty-juggler.vim](https://github.com/vim-scripts/LustyJuggler) - Enables a window for navigating through open buffers
