@@ -242,6 +242,7 @@ if !exists("autocommands_loaded")
   au BufRead,BufNewFile *.m*down set filetype=markdown
   au BufRead,BufNewFile *.as set filetype=actionscript
   au BufRead,BufNewFile *.json set filetype=json
+  au BufRead,BufNewFile *.hamlc set filetype=haml
 
   " Call the file type utility methods
   au BufRead,BufNewFile *.txt call s:setWrapping()

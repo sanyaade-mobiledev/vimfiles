@@ -163,3 +163,6 @@
 [submodule "home/.vim/bundle_storage/tagbar.vim"]
 	path = home/.vim/bundle_storage/tagbar.vim
 	url = https://github.com/majutsushi/tagbar.git
+[submodule "home/.vim/bundle_storage/indent-guides.vim"]
+	path = home/.vim/bundle_storage/indent-guides.vim
+	url = git://github.com/nathanaelkane/vim-indent-guides.git
