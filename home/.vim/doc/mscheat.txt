@@ -1,20 +1,20 @@
-btcheat.txt* Settings and various information for the Bit Theory configuration
+mscheat.txt* Settings and various information for the Mode Set configuration
 
-Author: Bit Theory
+Author: Mode Set
 
 ==============================================================================
-Bit Theory Cheat                        *btcheat*
+Mode Set Cheat                          *mscheat*
 
-1. Introduction                         |btcheat-intro|
-2. Key Mapping                          |btcheat-key-mappings|
-3. Leader Mapping                       |btcheat-leader-mappings|
+1. Introduction                         |mscheat-intro|
+2. Key Mapping                          |mscheat-key-mappings|
+3. Leader Mapping                       |mscheat-leader-mappings|
 ==============================================================================
-1. Introduction                         *btcheat-intro*
+1. Introduction                         *mscheat-intro*
 
 Listed below are key and leader mappings setup within the .vimrc file. Check 
 out the installed plug-in help docs as they setup their own bindings as well.
 ==============================================================================
-2. Key Mapping                          *btcheat-key-mappings*
+2. Key Mapping                          *mscheat-key-mappings*
 
 Normal Mode:
   j             => move down
@@ -55,7 +55,7 @@ Function Keys:
   <F11>         => reserved for .vimrc.local
   <F12>         => reserved for .vimrc.local
 ==============================================================================
-3. Leader Mapping                       *btcheat-leader-mappings*
+3. Leader Mapping                       *mscheat-leader-mappings*
 
 The leader key is mapped to comma ",". Always in normal mode.
 

@@ -13,7 +13,7 @@ help:
 	@echo "make add_snippet name=<snippet-name>      Symlinks a snippet from snippet_storage to the snippet directory"
 	@echo "make remove_bundle name=<bundle-name>     Removes a bundle symlink from the bundle directory"
 	@echo "make remove_snippet name=<snippet-name>   Removes a snippet symlink from the snippet directory"
-	@echo "make install                              Installs the default set up of Bit Theory's Vim configuration"
+	@echo "make install                              Installs the default set up of Mode Set's Vim configuration"
 	@echo "make themes                               Copies the themes directory of Terminal themes to the User's Desktop"
 
 update:

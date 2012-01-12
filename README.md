@@ -1,11 +1,11 @@
-# Bit Theory's Vim Configuration
+# Mode Set's Vim Configuration
 
-The default configuration files for Vim used at Bit Theory. Tuned to play nice with [MacVim][macvim] and Apple's Terminal but works with most \*nix environments. Setup using [homesick][homesick] for that symlinkn' goodness.
+The default configuration files for Vim used at Mode Set. Tuned to play nice with [MacVim][macvim] and Apple's Terminal but works with most \*nix environments. Setup using [homesick][homesick] for that symlinkn' goodness.
 
 
 ## To Get The Full Effect
 
-Bit Theory peops, double check, but you most likely already have the basic requirements installed on your machine.
+Mode Set peops, double check, but you most likely already have the basic requirements installed on your machine.
 
 - [Homebrew][homebrew] - `ruby -e "$(curl -fsSL https://gist.github.com/raw/323731/install_homebrew.rb)"`
 - [MacVim][macvim] - `brew install macvim`
@@ -56,9 +56,9 @@ There are two `make targets` included to help in this process `make clean` and `
 Run `make help` for more information.
 
 
-### Updating From The Bit Theory Repository
+### Updating From The Mode Set Repository
 
-To update from the latest changes in the Bit Theory repository run the following:
+To update from the latest changes in the Mode Set repository run the following:
 
 1. Quit out of Vim
 - `cd path/to/vimfiles/`
@@ -79,7 +79,7 @@ To pull upstream changes for all of the submodules run the following:
 - `git stash` or `git add` any updates from your environment spit out by the `make update` call to `git status`
 - `git pull --rebase`
 
-Commit your changes back up to the repository. Bit Theory will run this script once a week to keep the submodules as up to date as possible.
+Commit your changes back up to the repository. Mode Set will run this script once a week to keep the submodules as up to date as possible.
 
 
 ## Plug-Ins
@@ -185,7 +185,7 @@ These are the additional plug-ins included, but are not required. They are not l
 
 ## Snippets
 
-By default all of the snippet files stored within `snippets_storage` are symlinked into the `snippets` directory. These cover most of the languages used at Bit Theory. To see the available snippets for a given file type hit `<F5>`, a snippet is triggered using `<tab>`.
+By default all of the snippet files stored within `snippets_storage` are symlinked into the `snippets` directory. These cover most of the languages used at Mode Set. To see the available snippets for a given file type hit `<F5>`, a snippet is triggered using `<tab>`.
 
 Certain file types like JavaScript have hundreds of snippets based on the native language and various libraries. This can become unmanageable pretty quickly. The solution is to breakout specific libraries into their own files. For example `javascript-jasmine.snippets` where it needs to be named as `language-library.snippets`. Since snippets are saved in the `snippets_storage` directory, you can be selective about what gets a symbolic link within the `snippets` directory.
 
@@ -227,8 +227,8 @@ Themes included with this configuration:
 - `cataracts`: Grey background with muted colors
 - `colorblind`: Black background, super vibrant colors (Default)
 - `snowblind`: White background, vibrant colors
-- `solarizeddk`: Bit Theory tuned [solarized][solarized] dark colors
-- `solarizedlt`: Bit Theory tuned [solarized][solarized] light colors
+- `solarizeddk`: Mode Set tuned [solarized][solarized] dark colors
+- `solarizedlt`: Mode Set tuned [solarized][solarized] light colors
 
 In the `themes` directory are Terminal themes to match the Vim color themes. Install these.
 
@@ -245,9 +245,9 @@ The color themes have been designed with similarities in the syntax settings. Ju
 ## Tips
 
 
-### BTCheat
+### MSCheat
 
-Within Vim type `:h btcheat` to view key and leader bindings for the Bit Theory configuration.
+Within Vim type `:h mscheat` to view key and leader bindings for the Mode Set configuration.
 
 
 ### Makefile
@@ -320,9 +320,9 @@ This allows you to make changes directly in your submodule, see the effects and 
 
 ## License and Contributions
 
-All licensing for the Bundles/Plug-ins should be found in their respective repositories. Anything written by Bit Theory is of course open source through MIT. While contributions are welcome, you're probably better off forking and tuning it to your own machine.
+All licensing for the Bundles/Plug-ins should be found in their respective repositories. Anything written by Mode Set is of course open source through MIT. While contributions are welcome, you're probably better off forking and tuning it to your own machine.
 
-Copyright (c) 2011 by Bit Theory
+Copyright (c) 2012 by Mode Set
 
 Permission is hereby granted, free of charge, to any person
 obtaining a copy of this software and associated documentation
