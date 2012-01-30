@@ -173,6 +173,7 @@ These are the additional plug-ins included, but are not required. They are not l
 - [eunuch.vim](https://github.com/tpope/vim-eunuch) - Vim sugar for the UNIX shell commands that need it the most
 - [gundo.vim](https://github.com/vim-scripts/Gundo/blob/master/doc/gundo.txt) - Graph Vim's undo tree so it is actually usable
 - [html-autoclose.vim](https://github.com/vim-scripts/HTML-AutoCloseTag) - Automatically closes HTML tags, doesn't play well with the delimitMate plugin
+- [indent-guides.vim](https://github.com/nathanaelkane/vim-indent-guides) - Displays indent levels within files
 - [lusty-juggler.vim](https://github.com/vim-scripts/LustyJuggler) - Enables a window for navigating through open buffers
 - [ragtag.vim](https://github.com/tpope/vim-ragtag/blob/master/doc/ragtag.txt) - Ghetto XML/HTML mappings
 - [specky.vim](https://github.com/vim-scripts/Specky/blob/master/doc/specky.txt) - Plug-in for testing Ruby code with RSpec
