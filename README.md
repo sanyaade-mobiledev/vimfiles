@@ -20,12 +20,12 @@ Mode Set peops, double check, but you most likely already have the basic require
 
 To install the files and default configuration run the following:
 
-    homesick clone git@github.com:bit-theory/vimfiles.git
+    homesick clone git@github.com:modeset/vimfiles.git
     cd ~/.homesick/repos/vimfiles
     make install
     homesick symlink vimfiles -f
 
-\* If you don't have commit rights use `homesick clone https://github.com/bit-theory/vimfiles.git`
+\* If you don't have commit rights use `homesick clone https://github.com/modeset/vimfiles.git`
 
 This will install the default configuration files/directories, submodules, and create symbolic links for bundles. Most of the heavy lifting is done by the [install script][install]. This will also install a `themes` directory on your Desktop. Import these into Terminal for color goodness.
 
