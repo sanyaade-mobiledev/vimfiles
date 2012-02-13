@@ -43,6 +43,7 @@ set foldlevelstart=0
 set foldmethod=marker
 set formatoptions=tcq
 set autowrite
+set wildignore=vendor/bundle/**
 
 if has("mouse")
  set mouse=a
