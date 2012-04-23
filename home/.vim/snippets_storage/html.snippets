@@ -130,8 +130,8 @@ snippet base
 snippet r
 	<br`Close()[1:]`>
 snippet div
-	<div id="${1:name}">
-		${2}
+	<div>
+		${1}
 	</div>
 # Embed QT Movie
 snippet movie
@@ -265,6 +265,12 @@ snippet pre
 	<pre>
 		${1:code}
 	</pre>${2}
+snippet nav
+	<nav>
+		<ul class="nav">
+			<li> <a href="${1:#}">${2:Link}</a></li>
+		</ul>
+	</nav>${3}
 snippet span
 	<span class="${1:name}">${2:text}</span>${3}
 snippet strong
