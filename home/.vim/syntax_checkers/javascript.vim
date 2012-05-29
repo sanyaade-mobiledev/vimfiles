@@ -19,7 +19,9 @@ endif
 
 function! SyntaxCheckers_javascript_GetLocList()
   let makeprg = 'jshint ' . shellescape(expand("%"))
-  let errorformat = '%f: line %l\, col %c\, %m,%-G%.%#'
-  return SyntasticMake({ 'makeprg': makeprg, 'errorformat': errorformat })
+  " let errorformat = '%f: line %l\, col %c\, %m,%-G%.%#'
+  " return SyntasticMake({ 'makeprg': makeprg, 'errorformat': errorformat })
+  let errorformat = '%ELine %l:%c,%Z\\s%#Reason: %m,%C%.%#,%f: line %l\, col %c\, %m,%-G%.%#'
+  return SyntasticMake({ 'makeprg': makeprg, 'errorformat': errorformat, 'defaults': {'bufnr': bufnr('')} })
 endfunction
 
